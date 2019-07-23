@@ -23,6 +23,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
+    <eureka-server.version>1.4.2.RELEASE</eureka-server.version>
   </properties>
 
   <modules>
@@ -35,6 +36,12 @@
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-eureka-server</artifactId>
+      <version>${eureka-server.version}</version>
     </dependency>
 
     <dependency>
