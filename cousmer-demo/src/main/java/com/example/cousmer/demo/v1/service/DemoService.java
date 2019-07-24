@@ -14,6 +14,6 @@ public class DemoService {
 
 
     public String getDemo(String name){
-        return restTemplate.getForObject("http://PRODUCER-DEMO/demo/test?name ="+name,String.class);
+        return restTemplate.getForObject("http://producer-demo/demo/test/"+name,String.class);
     }
 }
