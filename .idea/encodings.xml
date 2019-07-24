@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cousmer-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/producer-demo" charset="UTF-8" />
   </component>
 </project>

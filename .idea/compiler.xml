@@ -9,6 +9,7 @@
         <module name="springCloudDemo" />
         <module name="cousmer-demo" />
         <module name="producer-demo" />
+        <module name="gateway-demo" />
         <module name="eureka-demo" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cousmer-demo" options="-parameters" />
       <module name="eureka-demo" options="-parameters" />
+      <module name="gateway-demo" options="-parameters" />
       <module name="producer-demo" options="-parameters" />
       <module name="springCloudDemo" options="-parameters" />
     </option>
